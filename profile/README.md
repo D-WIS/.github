@@ -2,43 +2,41 @@
 
 This index lists each repository in this folder with its README headline (or a note if none). Click a link to jump into that repo.
 
-- [ADCSBridgeDEAL](ADCSBridgeDEAL/) � ADCSBridgeDEAL
-- [ADCSBridgeGeneric](ADCSBridgeGeneric/) � ADCSBridgeGeneric
-- [ADCSBridgeNOVOS](ADCSBridgeNOVOS/) � ADCSBridgeNOVOS
-- [ADCSSoftwareInterface](ADCSSoftwareInterface/) � OpenRDM
-- [AdviceComposer](AdviceComposer/) � AdviceComposer
-- [Common](Common/) � Common
-- [ContextualData](ContextualData/) � ContextualData
-- [D-WIS.github.io](D-WIS.github.io/) � D-WIS: Drilling and Well Interoperability Standard
-- [DDHub-DSID-WP2-Common](DDHub-DSID-WP2-Common/) � DDHub-WP2-Common
-- [DDHub-Semantic-Interoperability](DDHub-Semantic-Interoperability/) � README starts with the DDHub logo (see repo for details)
-- [DLLs](DLLs/) � No README.md found
-- [DWIS-Blackboard-Base](DWIS-Blackboard-Base/) � DWIS-Blackboard-Base
-- [DWIS-Blackboard-Clients](DWIS-Blackboard-Clients/) � DWIS-Blackboard-Clients
-- [DWIS-Blackboard-Samples](DWIS-Blackboard-Samples/) � DWIS-Blackboard-Samples
-- [DWIS-Blackboard-Server](DWIS-Blackboard-Server/) � DWIS-Blackboard-Server
-- [DWIS-demo-2024-openlab](DWIS-demo-2024-openlab/) � DWIS-demo-2024-openlab
-- [DWIS-demo-2024-openlab-adcs](DWIS-demo-2024-openlab-adcs/) � DWIS-demo-2024-openlab-adcs
-- [DWIS-demo-2024-web](DWIS-demo-2024-web/) � DWIS-demo-2024-web
-- [DWIS-NOVOS-Clients](DWIS-NOVOS-Clients/) � DWIS-NOVOS-Clients
-- [eRAPAdvisor](eRAPAdvisor/) � eRAPAdvisor
-- [HighLevelArchitecture](HighLevelArchitecture/) � HighLevelArchitecture
-- [MicroStateEngine](MicroStateEngine/) � DWIS Microstates
-- [OpenRDM](OpenRDM/) � No README.md found
-- [Overall](Overall/) � D-WIS: Drilling and Wells Interoperability Standard
-- [ProjectSTUPID](ProjectSTUPID/) � ProjectSTUPID
-- [RigOS-Capabilities](RigOS-Capabilities/) � RigOS-Capabilities
-- [RigOS-Controller-Capabilities](RigOS-Controller-Capabilities/) � RigOS-Controller-Capabilities
-- [RigOS-DrillingProcessProtection](RigOS-DrillingProcessProtection/) � RigOS-DrillingProcessProtection
-- [RigOS-FDIR-Capabilities](RigOS-FDIR-Capabilities/) � D-WIS: Capabilities of the RigOS for Fault Detection Isolation and Recovery
-- [RigOS-Procedure-Capabilities](RigOS-Procedure-Capabilities/) � RigOS-Procedure-Capabilities
-- [RigOS-SOE-Capabilities](RigOS-SOE-Capabilities/) � RigOS-SafeOperatingEnvelope-Capabilities
-- [RigOS-Viewer-Capabilities](RigOS-Viewer-Capabilities/) � RigOS-Viewer-Capabilities
-- [RigOSAPI](RigOSAPI/) � RigOSAPI
-- [Scheduler](Scheduler/) � Scheduler
-- [Semantic-Server-Deploy](Semantic-Server-Deploy/) � Blackboard deployment
-- [SemanticAndLogicalStatement](SemanticAndLogicalStatement/) � SemanticAndLogicalStatement
-- [SemanticAndStateAutomata](SemanticAndStateAutomata/) � SemanticAndStateDiagram
-- [SemanticDrillingRTSignals](SemanticDrillingRTSignals/) � SemanticDrillingRTSignals
-- [UseCases](UseCases/) � Example Use Cases for Interoperability at the Rig Site
-- [WP2_MUMA](WP2_MUMA/) � WP2_MUMA
+- [ADCSBridgeDEAL](ADCSBridgeDEAL/) - ADCS Bridge  for DEAL from HMH (Private)
+- [ADCSBridgeGeneric](ADCSBridgeGeneric/) - Generic ADCS Bridge (used for BTWN)
+- [ADCSBridgeNOVOS](ADCSBridgeNOVOS/) - ADCS Bridge  for NOVOS from NOV (Private)
+- [ADCSSoftwareInterface](ADCSSoftwareInterface/) - OpenRDM
+- [AdviceComposer](AdviceComposer/) - DWIS Advice Composer
+- [Common](Common/) - Common classes for DWIS
+- [ContextualData](ContextualData/) - The DWIS Project repo for the Workstream "Contextual Data"
+- [D-WIS.github.io](D-WIS.github.io/) - web Page for "D-WIS: Drilling and Well Interoperability Standard"
+- [DDHub-DSID-WP2-Common](DDHub-DSID-WP2-Common/) - Many test projects used during development
+- [DDHub-Semantic-Interoperability](DDHub-Semantic-Interoperability/) - DWIS Semantic vocubulary
+- [DWIS-Blackboard-Base](DWIS-Blackboard-Base/) - Base code for the DWIS Blackboard
+- [DWIS-Blackboard-Clients](DWIS-Blackboard-Clients/) - Clients for DWIS Blackboard
+- [DWIS-Blackboard-Samples](DWIS-Blackboard-Samples/) - Samples for the DWIS Blackboard
+- [DWIS-Blackboard-Server](DWIS-Blackboard-Server/) - DWIS Blackboard server
+- [DWIS-demo-2024-openlab](DWIS-demo-2024-openlab/) - The applications used during the preparation of the 2024 DWIS demonstration
+- [DWIS-demo-2024-openlab-adcs](DWIS-demo-2024-openlab-adcs/) - The DWIS to OpenLab drilling access used during the preparation of the 2024 DWIS demonstration
+- [DWIS-demo-2024-web](DWIS-demo-2024-web/) - The DWIS web interface used during the 2024 DWIS demonstration 
+- [DWIS-NOVOS-Clients](DWIS-NOVOS-Clients/) - Clients for the DWIS NOVOS bridge
+- [eRAPAdvisor](eRAPAdvisor/) - an eRAP Advisor
+- [HighLevelArchitecture](HighLevelArchitecture/) - DWIS project repos for the workstream "High Level Architecture"
+- [MicroStateEngine](MicroStateEngine/) - DWIS Microstates Engine
+- [Overall](Overall/) - An overall repo for general DWIS project documents
+- [ProjectSTUPID](ProjectSTUPID/) - A repos for the project started by Ensign to provide an easy entry to interoperability
+- [RigOS-Capabilities](RigOS-Capabilities/) - Classes used to define the ADCS function capabilities
+- [RigOS-Controller-Capabilities](RigOS-Controller-Capabilities/) - Classes used to define the specific ADCS capabilities for Controller functions
+- [RigOS-DrillingProcessProtection](RigOS-DrillingProcessProtection/) - The DWIS project repo for the workstream "Drilling Process Protection"
+- [RigOS-FDIR-Capabilities](RigOS-FDIR-Capabilities/) - Classes used to define the specific ADCS capabilities for Fault Detection Isolation and Recovery
+- [RigOS-Procedure-Capabilities](RigOS-Procedure-Capabilities/) - Classes used to define the specific ADCS Capabilities for standard drilling procedures
+- [RigOS-SOE-Capabilities](RigOS-SOE-Capabilities/) - Classes used to define the specific ADCS capabilities for safe operating envelopes
+- [RigOS-Viewer-Capabilities](RigOS-Viewer-Capabilities/) - A viewer for ADCS Capabilities
+- [RigOSAPI](RigOSAPI/) - The DWIS Project repo for the workstream ADCS Interfaces
+- [Scheduler](Scheduler/) - The DWIS Scheduler
+- [Semantic-Server-Deploy](Semantic-Server-Deploy/) - Blackboard deployment
+- [SemanticAndLogicalStatement](SemanticAndLogicalStatement/) - Classes used to define semantically logical statements
+- [SemanticAndStateAutomata](SemanticAndStateAutomata/) - Classes used to define semantically finite State Automata
+- [SemanticDrillingRTSignals](SemanticDrillingRTSignals/) - SemanticDrillingRTSignals
+- [UseCases](UseCases/) - The DWIS Project repos for the workstream "Use Cases"
+- [WP2_MUMA](WP2_MUMA/) - Code for an associated project about mud management.

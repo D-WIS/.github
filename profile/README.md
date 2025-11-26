@@ -1,0 +1,44 @@
+# DWIS Repository Navigator
+
+This index lists each repository in this folder with its README headline (or a note if none). Click a link to jump into that repo.
+
+- [ADCSBridgeDEAL](ADCSBridgeDEAL/) � ADCSBridgeDEAL
+- [ADCSBridgeGeneric](ADCSBridgeGeneric/) � ADCSBridgeGeneric
+- [ADCSBridgeNOVOS](ADCSBridgeNOVOS/) � ADCSBridgeNOVOS
+- [ADCSSoftwareInterface](ADCSSoftwareInterface/) � OpenRDM
+- [AdviceComposer](AdviceComposer/) � AdviceComposer
+- [Common](Common/) � Common
+- [ContextualData](ContextualData/) � ContextualData
+- [D-WIS.github.io](D-WIS.github.io/) � D-WIS: Drilling and Well Interoperability Standard
+- [DDHub-DSID-WP2-Common](DDHub-DSID-WP2-Common/) � DDHub-WP2-Common
+- [DDHub-Semantic-Interoperability](DDHub-Semantic-Interoperability/) � README starts with the DDHub logo (see repo for details)
+- [DLLs](DLLs/) � No README.md found
+- [DWIS-Blackboard-Base](DWIS-Blackboard-Base/) � DWIS-Blackboard-Base
+- [DWIS-Blackboard-Clients](DWIS-Blackboard-Clients/) � DWIS-Blackboard-Clients
+- [DWIS-Blackboard-Samples](DWIS-Blackboard-Samples/) � DWIS-Blackboard-Samples
+- [DWIS-Blackboard-Server](DWIS-Blackboard-Server/) � DWIS-Blackboard-Server
+- [DWIS-demo-2024-openlab](DWIS-demo-2024-openlab/) � DWIS-demo-2024-openlab
+- [DWIS-demo-2024-openlab-adcs](DWIS-demo-2024-openlab-adcs/) � DWIS-demo-2024-openlab-adcs
+- [DWIS-demo-2024-web](DWIS-demo-2024-web/) � DWIS-demo-2024-web
+- [DWIS-NOVOS-Clients](DWIS-NOVOS-Clients/) � DWIS-NOVOS-Clients
+- [eRAPAdvisor](eRAPAdvisor/) � eRAPAdvisor
+- [HighLevelArchitecture](HighLevelArchitecture/) � HighLevelArchitecture
+- [MicroStateEngine](MicroStateEngine/) � DWIS Microstates
+- [OpenRDM](OpenRDM/) � No README.md found
+- [Overall](Overall/) � D-WIS: Drilling and Wells Interoperability Standard
+- [ProjectSTUPID](ProjectSTUPID/) � ProjectSTUPID
+- [RigOS-Capabilities](RigOS-Capabilities/) � RigOS-Capabilities
+- [RigOS-Controller-Capabilities](RigOS-Controller-Capabilities/) � RigOS-Controller-Capabilities
+- [RigOS-DrillingProcessProtection](RigOS-DrillingProcessProtection/) � RigOS-DrillingProcessProtection
+- [RigOS-FDIR-Capabilities](RigOS-FDIR-Capabilities/) � D-WIS: Capabilities of the RigOS for Fault Detection Isolation and Recovery
+- [RigOS-Procedure-Capabilities](RigOS-Procedure-Capabilities/) � RigOS-Procedure-Capabilities
+- [RigOS-SOE-Capabilities](RigOS-SOE-Capabilities/) � RigOS-SafeOperatingEnvelope-Capabilities
+- [RigOS-Viewer-Capabilities](RigOS-Viewer-Capabilities/) � RigOS-Viewer-Capabilities
+- [RigOSAPI](RigOSAPI/) � RigOSAPI
+- [Scheduler](Scheduler/) � Scheduler
+- [Semantic-Server-Deploy](Semantic-Server-Deploy/) � Blackboard deployment
+- [SemanticAndLogicalStatement](SemanticAndLogicalStatement/) � SemanticAndLogicalStatement
+- [SemanticAndStateAutomata](SemanticAndStateAutomata/) � SemanticAndStateDiagram
+- [SemanticDrillingRTSignals](SemanticDrillingRTSignals/) � SemanticDrillingRTSignals
+- [UseCases](UseCases/) � Example Use Cases for Interoperability at the Rig Site
+- [WP2_MUMA](WP2_MUMA/) � WP2_MUMA

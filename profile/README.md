@@ -2,7 +2,7 @@
 
 This index lists each repository in this folder with its README headline (or a note if none). Click a link to jump into that repo.
 
-- [ADCSBridgeDEAL](../../ADCSBridgeDEAL/) - ADCS Bridge  for DEAL from HMH (Private)
+- [ADCSBridgeDEAL](https://github.com/D-WIS/ADCSBridgeDEAL) - ADCS Bridge  for DEAL from HMH (Private)
 - [ADCSBridgeGeneric](ADCSBridgeGeneric/) - Generic ADCS Bridge (used for BTWN)
 - [ADCSBridgeNOVOS](ADCSBridgeNOVOS/) - ADCS Bridge  for NOVOS from NOV (Private)
 - [ADCSSoftwareInterface](ADCSSoftwareInterface/) - OpenRDM

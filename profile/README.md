@@ -6,6 +6,7 @@ This index lists each repository in this folder with its README headline (or a n
 - [Overall](https://github.com/D-WIS/Overall/) - An overall repo for general DWIS project documents
 - [HighLevelArchitecture](https://github.com/D-WIS/HighLevelArchitecture/) - DWIS project repo for the workstream "High Level Architecture"
 - [ContextualData](https://github.com/D-WIS/ContextualData/) - The DWIS Project repo for the Workstream "Contextual Data"
+- [SemanticDrillingRTSignals](https://github.com/D-WIS/SemanticDrillingRTSignals/) - The DWIS Project repo for the Workstream "Semantic of RT Signals"
 - [RigOS-DrillingProcessProtection](https://github.com/D-WIS/RigOS-DrillingProcessProtection/) - The DWIS project repo for the workstream "Drilling Process Protection"
 - [RigOSAPI](https://github.com/D-WIS/RigOSAPI/) - The DWIS Project repo for the workstream ADCS Interfaces
 - [UseCases](https://github.com/D-WIS/UseCases/) - The DWIS Project repo for the workstream "Use Cases"
@@ -16,7 +17,6 @@ This index lists each repository in this folder with its README headline (or a n
 - [Common](https://github.com/D-WIS/Common/) - Common classes for DWIS
 - [SemanticAndLogicalStatement](https://github.com/D-WIS/SemanticAndLogicalStatement/) - Classes used to define semantically logical statements
 - [SemanticAndStateAutomata](https://github.com/D-WIS/SemanticAndStateAutomata/) - Classes used to define semantically finite State Automata
-- [SemanticDrillingRTSignals](https://github.com/D-WIS/SemanticDrillingRTSignals/) - SemanticDrillingRTSignals
 
 ### Blackboard
 - [DWIS-Blackboard-Base](https://github.com/D-WIS/DWIS-Blackboard-Base/) - Base code for the DWIS Blackboard

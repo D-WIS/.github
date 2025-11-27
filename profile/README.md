@@ -13,7 +13,6 @@ flowchart TD
     A -->|Workstream| F(Contextual Data)
     A -->|Workstream| G(Use Cases)
     A -->|Workstream| I(Rig Action Pland/Detailed Operational Plan)
-    B -->|Workstream| C{Let me think}
 ```
 
 - [Overall](https://github.com/D-WIS/Overall/) - An overall repo for general DWIS project documents

@@ -25,6 +25,98 @@ flowchart TD
 - [ProjectSTUPID](https://github.com/D-WIS/ProjectSTUPID/) - A repo for working on Rig Action Plan or Detailed Operational Plan
 
 ## Main Code
+```mermaid
+flowchart LR
+    %% CENTRAL SYSTEM
+    subgraph DWIS[DWIS]
+        BB[Blackboard]
+
+        DPSI[Drilling Process<br/>State Interpreter]
+        CDB[Contextual Data<br/>Builder]
+        AC[Advice Composer]
+        SCH[Scheduler]
+        LOG[Logger]
+        ADCScap[ADCS Capabilities]
+        ADCSint[ADCS Interfaces]
+
+        %% Internal data flows to/from Blackboard
+        DPSI --> BB
+        CDB --> BB
+        AC --> BB
+        SCH --> BB
+        LOG --> BB
+    end
+
+    %% EXTERNAL ACTORS / SYSTEMS
+
+    subgraph Advisors[External Advisors]
+        Adv1[Advisor #1]
+        AdvN[Advisor #n]
+    end
+
+    subgraph ADCS_grp[ADCS]
+        ADCS1[ADCS #1]
+        ADCSq[ADCS #q]
+    end
+
+    subgraph DCS_grp[DCS]
+        DCS1[DCS #1]
+        DCSq[DCS #q]
+    end
+
+    subgraph DAQ_grp[Data Acquisition (DAQ)]
+        DAQ1[DAQ #1]
+        DAQm[DAQ #m]
+    end
+
+    subgraph Ctx_grp[Contextual Data Sources]
+        CD1[Contextual Data #1]
+        CDp[Contextual Data #p]
+    end
+
+    subgraph Rig_grp[Rig Machines]
+        RM1[Rig Machines #1]
+        RMq[Rig Machines #q]
+    end
+
+    OEM[OEM]
+
+    %% CONNECTIONS TO DWIS VIA INTERFACES / FUNCTIONS
+
+    %% ADCS & DCS talk to DWIS via ADCS Interfaces
+    ADCS1 --> ADCSint
+    ADCSq --> ADCSint
+    DCS1 --> ADCSint
+    DCSq --> ADCSint
+    ADCSint --> ADCScap
+
+    %% Advisors use Advice Composer
+    Adv1 --> AC
+    AdvN --> AC
+
+    %% DAQ & Contextual Data feed Contextual Data Builder
+    DAQ1 --> CDB
+    DAQm --> CDB
+    CD1 --> CDB
+    CDp --> CDB
+
+    %% Rig Machines inform Drilling Process State Interpreter
+    RM1 --> DPSI
+    RMq --> DPSI
+
+    %% OEM relation to equipment/systems
+    OEM --- ADCS_grp
+    OEM --- DCS_grp
+    OEM --- Rig_grp
+
+    %% Label for group of external systems
+    classDef groupLabel fill=none,stroke=none,color=black;
+    ExtLabel[External Advisor, Data-Acquisition System,<br/>Contextual Data Sources]:::groupLabel
+
+    ExtLabel --- Advisors
+    ExtLabel --- DAQ_grp
+    ExtLabel --- Ctx_grp
+```
 ### Common Code
 - [Common](https://github.com/D-WIS/Common/) - Common classes for DWIS
 - [SemanticAndLogicalStatement](https://github.com/D-WIS/SemanticAndLogicalStatement/) - Classes used to define semantically logical statements

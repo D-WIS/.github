@@ -3,6 +3,19 @@
 This index lists each repository in this folder with its README headline (or a note if none). Click a link to jump into that repo.
 
 ## DWIS Workstreams
+
+'''mermaid
+flowchart TD
+    A[DWIS] -->|Workstream| B(High Level Architecture)
+    A -->|Workstream| C(Semantic of Realtime Signals)
+    A -->|Workstream| D(Drilling Process Protection)
+    A -->|Workstream| E(ADCS Standard Interfaces)
+    A -->|Workstream| F(Contextual Data)
+    A -->|Workstream| G(Use Cases)
+    A -->|Workstream| I(Rig Action Pland/Detailed Operational Plan)
+    B -->|Workstream| C{Let me think}
+'''
+
 - [Overall](https://github.com/D-WIS/Overall/) - An overall repo for general DWIS project documents
 - [HighLevelArchitecture](https://github.com/D-WIS/HighLevelArchitecture/) - DWIS project repo for the workstream "High Level Architecture"
 - [ContextualData](https://github.com/D-WIS/ContextualData/) - The DWIS Project repo for the Workstream "Contextual Data"
@@ -10,7 +23,7 @@ This index lists each repository in this folder with its README headline (or a n
 - [RigOS-DrillingProcessProtection](https://github.com/D-WIS/RigOS-DrillingProcessProtection/) - The DWIS project repo for the workstream "Drilling Process Protection"
 - [RigOSAPI](https://github.com/D-WIS/RigOSAPI/) - The DWIS Project repo for the workstream ADCS Interfaces
 - [UseCases](https://github.com/D-WIS/UseCases/) - The DWIS Project repo for the workstream "Use Cases"
-- [ProjectSTUPID](https://github.com/D-WIS/ProjectSTUPID/) - A repo for the project started by Ensign to provide an easy entry to interoperability
+- [ProjectSTUPID](https://github.com/D-WIS/ProjectSTUPID/) - A repo for working on Rig Action Plan or Detailed Operational Plan
 
 ## Main Code
 ### Common Code

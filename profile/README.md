@@ -109,7 +109,7 @@ flowchart LR
     OEM --- Rig_grp
 
     %% Label for group of external systems
-    classDef groupLabel fill=none,stroke=none,color=black;
+    classDef groupLabel fill:transparent,stroke:none,color:#000;
     ExtLabel[External Advisor, Data-Acquisition System,<br/>Contextual Data Sources]:::groupLabel
 
     ExtLabel --- Advisors

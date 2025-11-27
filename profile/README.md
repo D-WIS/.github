@@ -26,96 +26,98 @@ flowchart TD
 
 ## Main Code
 ```mermaid
-flowchart LR
-    %% CENTRAL SYSTEM
-    subgraph DWIS[DWIS]
-        BB[Blackboard]
+flowchart TB
 
-        DPSI[Drilling Process<br/>State Interpreter]
-        CDB[Contextual Data<br/>Builder]
-        AC[Advice Composer]
-        SCH[Scheduler]
-        LOG[Logger]
-        ADCScap[ADCS Capabilities]
-        ADCSint[ADCS Interfaces]
+%% =========================
+%% Top row: external grey boxes
+%% =========================
+subgraph TopRow[ ]
+direction LR
+    Adv1[Advisor #1]
+    AdvN[Advisor #n]
+    DAQ1[DAQ #1]
+    DAQm[DAQ #m]
+    CD1[Contextual Data #1]
+    CDp[Contextual Data #p]
+end
 
-        %% Internal data flows to/from Blackboard
-        DPSI --> BB
-        CDB --> BB
-        AC --> BB
-        SCH --> BB
-        LOG --> BB
-    end
-    %% EXTERNAL ACTORS / SYSTEMS
+%% =========================
+%% DWIS internal green boxes
+%% =========================
+DPSI[Drilling Process\nState Interpreter]
+AC[Advice Composer]
+SCH[Scheduler]
+CDB[Contextual Data\nBuilder]
+LOG[Logger]
+BB[Blackboard]
+ADCSint[ADCS Interfaces]
+ADCScap[ADCS Capabilities]
 
-    subgraph Advisors[External Advisors]
-        Adv1[Advisor #1]
-        AdvN[Advisor #n]
-    end
+%% Arrange DWIS around Blackboard
+%% (left side)
+DPSI --> BB
+AC --> BB
+SCH --> BB
+DPSI --- AC --- SCH
 
-    subgraph ADCS_grp[ADCS]
-        ADCS1[ADCS #1]
-        ADCSq[ADCS #q]
-    end
+%% (right side)
+CDB --> BB
+LOG --> BB
+CDB --- LOG
 
-    subgraph DCS_grp[DCS]
-        DCS1[DCS #1]
-        DCSq[DCS #q]
-    end
+%% Below Blackboard: ADCS Interfaces & Capabilities side by side
+BB --> ADCSint
+BB --> ADCScap
+ADCSint --- ADCScap
 
-    subgraph DAQ_grp[Data Acquisition DAQ]
-        DAQ1[DAQ #1]
-        DAQm[DAQ #m]
-    end
+%% =========================
+%% Bottom blue columns
+%% =========================
+subgraph Col1[ ]
+direction TB
+    ADCS1[ADCS #1]
+    DCS1[DCS #1]
+    RM1[Rig Machines #1]
+end
 
-    subgraph Ctx_grp[Contextual Data Sources]
-        CD1[Contextual Data #1]
-        CDp[Contextual Data #p]
-    end
+subgraph Col2[ ]
+direction TB
+    ADCSq[ADCS #q]
+    DCSq[DCS #q]
+    RMq[Rig Machines #q]
+end
 
-    subgraph Rig_grp[Rig Machines]
-        RM1[Rig Machines #1]
-        RMq[Rig Machines #q]
-    end
+%% Columns connected under the interfaces/capabilities
+ADCSint --> ADCS1
+ADCScap --> ADCSq
 
-    OEM[OEM]
+ADCS1 --> DCS1
+DCS1 --> RM1
 
-    %% CONNECTIONS TO DWIS VIA INTERFACES / FUNCTIONS
+ADCSq --> DCSq
+DCSq --> RMq
 
-    %% ADCS & DCS talk to DWIS via ADCS Interfaces
-    ADCS1 --> ADCSint
-    ADCSq --> ADCSint
-    DCS1 --> ADCSint
-    DCSq --> ADCSint
-    ADCSint --> ADCScap
+%% =========================
+%% Connections from top row to DWIS
+%% =========================
+Adv1 --> AC
+AdvN --> AC
 
-    %% Advisors use Advice Composer
-    Adv1 --> AC
-    AdvN --> AC
+DAQ1 --> CDB
+DAQm --> CDB
+CD1 --> CDB
+CDp --> CDB
 
-    %% DAQ & Contextual Data feed Contextual Data Builder
-    DAQ1 --> CDB
-    DAQm --> CDB
-    CD1 --> CDB
-    CDp --> CDB
+%% =========================
+%% Styling
+%% =========================
+classDef dwis fill:#ccffcc,stroke:#333,stroke-width:1px;
+classDef blue fill:#cce5ff,stroke:#333,stroke-width:1px;
+classDef grey fill:#e0e0e0,stroke:#333,stroke-width:1px;
 
-    %% Rig Machines inform Drilling Process State Interpreter
-    RM1 --> DPSI
-    RMq --> DPSI
-
-    %% OEM relation to equipment/systems
-    OEM --- ADCS_grp
-    OEM --- DCS_grp
-    OEM --- Rig_grp
-
-    %% Label for group of external systems
-    classDef groupLabel fill:transparent,stroke:none,color:#000;
-    ExtLabel[External Advisor, Data-Acquisition System,<br/>Contextual Data Sources]:::groupLabel
-
-    ExtLabel --- Advisors
-    ExtLabel --- DAQ_grp
-    ExtLabel --- Ctx_grp
-
+class DPSI,AC,SCH,CDB,LOG,BB,ADCSint,ADCScap dwis;
+class ADCS1,ADCSq,DCS1,DCSq,RM1,RMq blue;
+class Adv1,AdvN,DAQ1,DAQm,CD1,CDp grey;
 ```
 ### Common Code
 - [Common](https://github.com/D-WIS/Common/) - Common classes for DWIS

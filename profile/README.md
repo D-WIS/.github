@@ -63,7 +63,7 @@ flowchart LR
         DCSq[DCS #q]
     end
 
-    subgraph DAQ_grp[Data Acquisition (DAQ)]
+    subgraph DAQ_grp[Data Acquisition DAQ]
         DAQ1[DAQ #1]
         DAQm[DAQ #m]
     end
@@ -80,6 +80,41 @@ flowchart LR
 
     OEM[OEM]
 
+    %% CONNECTIONS TO DWIS VIA INTERFACES / FUNCTIONS
+
+    %% ADCS & DCS talk to DWIS via ADCS Interfaces
+    ADCS1 --> ADCSint
+    ADCSq --> ADCSint
+    DCS1 --> ADCSint
+    DCSq --> ADCSint
+    ADCSint --> ADCScap
+
+    %% Advisors use Advice Composer
+    Adv1 --> AC
+    AdvN --> AC
+
+    %% DAQ & Contextual Data feed Contextual Data Builder
+    DAQ1 --> CDB
+    DAQm --> CDB
+    CD1 --> CDB
+    CDp --> CDB
+
+    %% Rig Machines inform Drilling Process State Interpreter
+    RM1 --> DPSI
+    RMq --> DPSI
+
+    %% OEM relation to equipment/systems
+    OEM --- ADCS_grp
+    OEM --- DCS_grp
+    OEM --- Rig_grp
+
+    %% Label for group of external systems
+    classDef groupLabel fill=none,stroke=none,color=black;
+    ExtLabel[External Advisor, Data-Acquisition System,<br/>Contextual Data Sources]:::groupLabel
+
+    ExtLabel --- Advisors
+    ExtLabel --- DAQ_grp
+    ExtLabel --- Ctx_grp
 
 ```
 ### Common Code

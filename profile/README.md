@@ -25,7 +25,6 @@ flowchart TD
 - [UseCases](https://github.com/D-WIS/UseCases/) - The DWIS Project repo for the workstream "Use Cases"
 - [Downlinking](https://github.com/D-WIS/Downlinking/) - The DWIS Project report for the specification of Downlinking commands
 - [ProjectSTUPID](https://github.com/D-WIS/ProjectSTUPID/) - A repo for working on Rig Action Plan or Detailed Operational Plan
-- [DWIS-Weekly-Recordings](https://github.com/D-WIS/DWIS-Weekly-Recordings/) - A repo for working on Rig Action Plan or Detailed Operational Plan
 
 ## Main Code
 ![DWIS Architecture](Architecture.svg)

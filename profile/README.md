@@ -63,6 +63,23 @@ flowchart LR
         DCSq[DCS #q]
     end
 
+    subgraph DAQ_grp[Data Acquisition (DAQ)]
+        DAQ1[DAQ #1]
+        DAQm[DAQ #m]
+    end
+
+    subgraph Ctx_grp[Contextual Data Sources]
+        CD1[Contextual Data #1]
+        CDp[Contextual Data #p]
+    end
+
+    subgraph Rig_grp[Rig Machines]
+        RM1[Rig Machines #1]
+        RMq[Rig Machines #q]
+    end
+
+    OEM[OEM]
+
 
 ```
 ### Common Code

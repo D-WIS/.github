@@ -46,6 +46,22 @@ flowchart LR
         SCH --> BB
         LOG --> BB
     end
+    %% EXTERNAL ACTORS / SYSTEMS
+
+    subgraph Advisors[External Advisors]
+        Adv1[Advisor #1]
+        AdvN[Advisor #n]
+    end
+
+    subgraph ADCS_grp[ADCS]
+        ADCS1[ADCS #1]
+        ADCSq[ADCS #q]
+    end
+
+    subgraph DCS_grp[DCS]
+        DCS1[DCS #1]
+        DCSq[DCS #q]
+    end
 
 
 ```

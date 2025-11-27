@@ -4,7 +4,7 @@ This index lists each repository in this folder with its README headline (or a n
 
 ## DWIS Workstreams
 
-'''mermaid
+```mermaid
 flowchart TD
     A[DWIS] -->|Workstream| B(High Level Architecture)
     A -->|Workstream| C(Semantic of Realtime Signals)
@@ -14,7 +14,7 @@ flowchart TD
     A -->|Workstream| G(Use Cases)
     A -->|Workstream| I(Rig Action Pland/Detailed Operational Plan)
     B -->|Workstream| C{Let me think}
-'''
+```
 
 - [Overall](https://github.com/D-WIS/Overall/) - An overall repo for general DWIS project documents
 - [HighLevelArchitecture](https://github.com/D-WIS/HighLevelArchitecture/) - DWIS project repo for the workstream "High Level Architecture"

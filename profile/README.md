@@ -85,7 +85,7 @@ flowchart TD
 - [SemanticAndStateAutomata](https://github.com/D-WIS/SemanticAndStateAutomata/) - Classes used to define semantically finite State Automata
 - [DDHub-DSID-WP2-Common](https://github.com/D-WIS/DDHub-DSID-WP2-Common/) - Many test projects used during development
 
-#Publications
+# Publications
 - Cayeux, Eric, Macpherson, John, Laing, Moray, Pirovolou, Dimitrios, and Fred Florence. "Drilling Systems Automation: Fault Detection, Isolation and Recovery Functions for Situational Awareness." Paper presented at the SPE/IADC International Drilling Conference and Exhibition, Stavanger, Norway, March 2023. [SPE-212565-MS](https://doi.org/10.2118/212565-MS)
 - Cayeux, Eric, Macpherson, John, Pirovolou, Dimitrios, Laing, Moray, and Fred Florence. "A General Framework to Describe Drilling Process States." Paper presented at the SPE/IADC International Drilling Conference and Exhibition, Stavanger, Norway, March 2023. [SPE-212537-MS](https://doi.org/10.2118/212537-MS)
 - Cayeux, Eric, Daireaux, Benoît, Macpherson, John, Florence, Fred, and Espen Solbu. "Interoperability of Real-Time Drilling Signals at the Rig Site: An Example Based on Mechanical Specific Energy." Paper presented at the SPE/IADC International Drilling Conference and Exhibition, Stavanger, Norway, March 2023. [SPE-212472-MS](https://doi.org/10.2118/212472-MS)

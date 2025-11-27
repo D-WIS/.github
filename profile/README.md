@@ -64,7 +64,6 @@ flowchart TD
 - [ADCSBridgeNOVOS](https://github.com/D-WIS/ADCSBridgeNOVOS/) - ADCS Bridge  for NOVOS from NOV (Private)
 
 ## Additional Code for Side and Obsolete Projects, Demo Preparation, ...
-- [ADCSSoftwareInterface](https://github.com/D-WIS/ADCSSoftwareInterface/) - OpenRDM
 - [DWIS-demo-2024-deploy](https://github.com/D-WIS/DWIS-demo-2024-deploy/) - Repository used for the deployment of the apps involved in the 2024 D-WIS demonstration
 - [DWIS-demo-2024-openlab](https://github.com/D-WIS/DWIS-demo-2024-openlab/) - The applications used during the preparation of the 2024 DWIS demonstration
 - [DWIS-demo-2024-openlab-adcs](https://github.com/D-WIS/DWIS-demo-2024-openlab-adcs/) - The DWIS to OpenLab drilling access used during the preparation of the 2024 DWIS demonstration
@@ -74,6 +73,9 @@ flowchart TD
 - [DWIS-Docker](https://github.com/D-WIS/DWIS-Docker/) - Facilities for D-WIS containers management 
 - [DWIS-NOVOS-Clients](https://github.com/D-WIS/DWIS-NOVOS-Clients/) - Clients for the DWIS NOVOS bridge
 - [eRAPAdvisor](https://github.com/D-WIS/eRAPAdvisor/) - an eRAP Advisor
+
+## Additional Code for Side and Obsolete Projects
+- [ADCSSoftwareInterface](https://github.com/D-WIS/ADCSSoftwareInterface/) - OpenRDM
 - [RigOS-Viewer-Capabilities](https://github.com/D-WIS/RigOS-Viewer-Capabilities/) - A viewer for ADCS Capabilities
 - [WP2_CSI](https://github.com/D-WIS/WP2_CSI/) - Repo for the CSI application. Part of the work package 2 of the DSID project
 - [WP2_MUMA](https://github.com/D-WIS/WP2_MUMA/) - Repo for the mud management activity. Work package 2 of the DSID project

@@ -62,6 +62,10 @@ flowchart TD
 - [ADCSBridgeDEAL](https://github.com/D-WIS/ADCSBridgeDEAL) - ADCS Bridge  for DEAL from HMH (Private)
 - [ADCSBridgeNOVOS](https://github.com/D-WIS/ADCSBridgeNOVOS/) - ADCS Bridge  for NOVOS from NOV (Private)
 
+### DAQ Bridges
+- [DAQBridgeCleanSight](https://github.com/D-WIS/DAQBridgeCleanSight/) - an example bridge between the CleanSight system from DrillDocs and DWIS
+- [DAQBridgeRheoSense](https://githib.com/D-WIS/DAQBridgeRheoSense/) - an exmaple bridge between RheoSense from IMS and DWIS
+
 ## Additional Code for Demo Preparation
 - [DWIS-demo-2024-deploy](https://github.com/D-WIS/DWIS-demo-2024-deploy/) - Repository used for the deployment of the apps involved in the 2024 D-WIS demonstration
 - [DWIS-demo-2024-openlab](https://github.com/D-WIS/DWIS-demo-2024-openlab/) - The applications used during the preparation of the 2024 DWIS demonstration

@@ -64,7 +64,9 @@ flowchart TD
 
 ### DAQ Bridges
 - [DAQBridgeCleanSight](https://github.com/D-WIS/DAQBridgeCleanSight/) - an example bridge between the CleanSight system from DrillDocs and DWIS
-- [DAQBridgeRheoSense](https://github.com/D-WIS/DAQBridgeRheoSense) - an exmaple bridge between RheoSense from IMS and DWIS
+- [DAQBridgeRheoSense](https://github.com/D-WIS/DAQBridgeRheoSense) - an example bridge between RheoSense from IMS and DWIS
+- [DAQBridgeBaraLogix](https://github.com/D-WIS/DAQBridgeBaraLogix) - an eample bridge between BaraLogix from Halliburton and DWIS
+- [DAQBridgeOmniView](https://github.com/D-WIS/DAQBridgeOmniView) - an eample bridge between OmniView from Petromar/Nabors/WellID and DWIS
 
 ## Additional Code for Demo Preparation
 - [DWIS-demo-2024-deploy](https://github.com/D-WIS/DWIS-demo-2024-deploy/) - Repository used for the deployment of the apps involved in the 2024 D-WIS demonstration

@@ -68,6 +68,18 @@ flowchart TD
 - [DAQBridgeBaraLogix](https://github.com/D-WIS/DAQBridgeBaraLogix) - an example bridge between BaraLogix from Halliburton and DWIS
 - [DAQBridgeOmniView](https://github.com/D-WIS/DAQBridgeOmniView) - an example bridge between OmniView from Petromar/Nabors/WellID and DWIS
 - [DAQBridgeBlackStream](https://github.com/D-WIS/DAQBridgeBlackStream) - an example bridge between BlackStream from NOV and DWIS
+- [DAQBridgeBaseStar](https://github.com/D-WIS/DAQBridgeBaseStar) - an example bridge between the BaseStar mechanical sub from Halliburton and DWIS
+- [DAQBridgeUDPTopSideData](https://github.com/D-WIS/DAQBridgeUDPTopSideData) - an example bridge between a top-side logging system using UDP datagrams and DWIS
+
+### Contextual Data Bridges
+- [ContextualDataBridgeBHADrillString](https://github.com/D-WIS/ContextualDataBridgeBHADrillString) - a bridge between the OSDC BHA/Drill-string microservice the D-WIS Blackboard
+- [ContextualDataBridgeWellBoreArchitecture](https://github.com/D-WIS/ContextualDataBridgeWellBoreArchitecture) - a bridge between the OSDC Wellbore Architecture microservice the D-WIS Blackboard
+- [ContextualDataBridgeTrajectory](https://github.com/D-WIS/ContextualDataBridgeTrajectory) - a bridge between the OSDC Trajectory microservice the D-WIS Blackboard
+
+### Example Services
+- [ServiceDownholeECD](https://github.com/D-WIS/ServiceDownholeECD) - a service that reads downhole annulus pressures, trajectory data and wellbore architecture information to produce Downhole ECD (and ESD).
+- [ServiceActiveVolume](https://github.com/D-WIS/ServiceActiveVolume) - a service that reads drilling fluid and cuttings flowrate from observations at the shale shaker lever and active pit volume and produces a consolidated active pit volume.
+- [ServiceAdjustedWOB](https://github.com/D-WIS/ServiceAdjustedWOB) - a service that reads the surface and downhole WOB and that provides a consolidated WOB. The service also performs the opposite operation for recommended WOB limits, i.e., it converts into the ADCS SWOB context, WOB limits accounting for initial biases on zero WOB, effects of the block position and changes in flowrates.
 
 ## Additional Code for Demo Preparation
 - [DWIS-demo-2024-deploy](https://github.com/D-WIS/DWIS-demo-2024-deploy/) - Repository used for the deployment of the apps involved in the 2024 D-WIS demonstration

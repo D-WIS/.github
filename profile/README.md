@@ -71,7 +71,8 @@ flowchart TD
 - [DAQBridgeBaseStar](https://github.com/D-WIS/DAQBridgeBaseStar) - an example bridge between the BaseStar mechanical sub from Halliburton and DWIS
 - [DAQBridgeUDPTopSideData](https://github.com/D-WIS/DAQBridgeUDPTopSideData) - an example bridge between a top-side logging system using UDP datagrams and DWIS
 
-### Contextual Data Bridges
+### Contextual Data
+- [ContextualDataWellBoreSelector](https://github.com/D-WIS/ContextualDataWellBoreSelector) - a web application to select an active wellbore from the list of wellbores available in the OSDC microservice framework.
 - [ContextualDataBridgeBHADrillString](https://github.com/D-WIS/ContextualDataBridgeBHADrillString) - a bridge between the OSDC BHA/Drill-string microservice the D-WIS Blackboard
 - [ContextualDataBridgeWellBoreArchitecture](https://github.com/D-WIS/ContextualDataBridgeWellBoreArchitecture) - a bridge between the OSDC Wellbore Architecture microservice the D-WIS Blackboard
 - [ContextualDataBridgeTrajectory](https://github.com/D-WIS/ContextualDataBridgeTrajectory) - a bridge between the OSDC Trajectory microservice the D-WIS Blackboard

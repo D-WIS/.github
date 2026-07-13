@@ -70,6 +70,7 @@ flowchart TD
 - [DAQBridgeBlackStream](https://github.com/D-WIS/DAQBridgeBlackStream) - an example bridge between BlackStream from NOV and DWIS
 - [DAQBridgeBaseStar](https://github.com/D-WIS/DAQBridgeBaseStar) - an example bridge between the BaseStar mechanical sub from Halliburton and DWIS
 - [DAQBridgeUDPTopSideData](https://github.com/D-WIS/DAQBridgeUDPTopSideData) - an example bridge between a top-side logging system using UDP datagrams and DWIS
+- [DAQBridgeMPDBackPressure](https://github.com/D-WIS/DAQBridgeMPDBackPressure) - an example bridge between a Back-pressure based MPD system and DWIS
 
 ### Contextual Data
 - [ContextualDataWellBoreSelector](https://github.com/D-WIS/ContextualDataWellBoreSelector) - a web application to select an active wellbore from the list of wellbores available in the OSDC microservice framework.

@@ -26,6 +26,7 @@ flowchart TD
 - [RigOSAPI](https://github.com/D-WIS/RigOSAPI/) — **Private** — The DWIS Project repo for the workstream ADCS Interfaces
 - [UseCases](https://github.com/D-WIS/UseCases/) — **Private** — The DWIS Project repo for the workstream "Use Cases"
 - [Downlinking](https://github.com/D-WIS/Downlinking/) — **Private** — The DWIS Project report for the specification of Downlinking commands
+- [RSS-Communication](https://github.com/D-WIS/RSS-Communication/) — **Private** — Interface specifications for rig-site and remote RSS downlinking over REST, WebSocket and AMQP; contains API contracts and rendered documentation.
 - [ProjectSTUPID](https://github.com/D-WIS/ProjectSTUPID/) — **Private** — A repo for working on Rig Action Plan or Detailed Operational Plan
 
 ## Main Code
@@ -120,7 +121,6 @@ The wellbore selector establishes the active wellbore. Contextual bridges make t
 ## Installation and Interface Specifications
 
 - [DWISDeepseaStavanger](https://github.com/D-WIS/DWISDeepseaStavanger/) — **Private** — Installation and integration preparation for DWIS on Deepsea Stavanger, including the OpenLab test environment.
-- [RSS-Communication](https://github.com/D-WIS/RSS-Communication/) — **Private** — Interface specifications for rig-site and remote RSS downlinking over REST, WebSocket and AMQP; contains API contracts and rendered documentation.
 
 ## Additional Code for Demo Preparation
 - [DWIS-demo-2024-deploy](https://github.com/D-WIS/DWIS-demo-2024-deploy/) — **Private** — Repository used for the deployment of the apps involved in the 2024 D-WIS demonstration
